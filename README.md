@@ -1,9 +1,17 @@
 [![Librelane Digital Flow (UNIC-CASS)](https://github.com/unic-cass/unic-cass-wrapper/actions/workflows/digital-flow.yaml/badge.svg?branch=dev&event=push)](https://github.com/unic-cass/unic-cass-wrapper/actions/workflows/digital-flow.yaml)
 
-# DSIC Scoreboard – UNIC-CASS IC Submission
+# DSIC Scoreboard – UNIC-CASS Submission
 
 This repository contains the implementation of the **dsic_scoreboard** digital integrated circuit prepared for fabrication using the **UNIC-CASS wrapper framework**.  
 The design flow follows the open-source ASIC toolchain using **LibreLane** and the **IHP Open PDK** to generate a hardened macro and integrate it into the UNIC-CASS chip wrapper.
+The module controls a multiplexed 4-digit seven-segment display to show the scores of two teams and allows increment/decrement through input buttons.
+
+# Overview
+
+The scoreboard module implements a digital scoreboard with:
+- Score tracking for two teams
+- Increment and decrement buttons for each team
+- Multiplexed 7-segment display output
 
 ---
 
