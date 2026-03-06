@@ -7,7 +7,7 @@ The design flow follows the open-source ASIC toolchain using **LibreLane** and t
 
 ---
 
-# 4. Repository Organization
+#  Repository Organization
 
 The repository contains the UNIC-CASS wrapper framework along with the user macro implementing the **dsic_scoreboard** design. The main directories are arranged as shown below:
 
@@ -36,7 +36,7 @@ The `final/` directories are created automatically when the design flow is execu
 
 ---
 
-# 5. Environment Preparation
+#  Environment Preparation
 
 The complete ASIC flow for this project is executed inside the **UNIC-CASS Docker environment**, which includes the necessary tools and dependencies.
 
@@ -61,7 +61,7 @@ Running this command downloads and configures the required components, including
 
 ---
 
-# 6. Hardening the `dsic_scoreboard` Macro
+#  Hardening the `dsic_scoreboard` Macro
 
 The **dsic_scoreboard** module is synthesized and physically implemented as a macro using the LibreLane flow.
 
@@ -95,7 +95,7 @@ make dsic_scoreboard VIEW_RESULTS=1
 
 ---
 
-# 7. Integration with the UNIC-CASS Wrapper
+#  Integration with the UNIC-CASS Wrapper
 
 Once the macro implementation is completed, the design is incorporated into the **UNIC-CASS chip wrapper** for full chip assembly.
 
@@ -124,7 +124,7 @@ The process concludes at the **Report Manufacturability** stage, producing the l
 
 ---
 
-# 8. Viewing the Generated Layout
+#  Viewing the Generated Layout
 
 The resulting layout files were analyzed using **KLayout**, an open-source layout viewer widely used in VLSI design.
 
